@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, Intial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Design</title>
+</head>
+
+<body>
+    <form>
+
+        <div class="container">
+            <header>Create Account</header>
+        </div>
+
+        <div class="container">
+            <div> <label>First name </label>
+
+                <div> <input type="text" name="fname" placeholder="tulis nama depan anda" required>
+                </div>
+            </div>
+
+            <div>
+                <label>Last name </label>
+                <div> <input type="text" name="lname" placeholder="tulis nama belakang anda" required>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <p> Email </p>
+            
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="tulis email anda" required>
+        </div>
+
+
+        <div class="container">
+            <div>
+                <label> Asal </label>
+                <div>
+                    <input type="text" name="asal" placeholder="tuliskan asal anda" required>
+                </div>
+            </div>
+            <div>
+                <label> Phone </label>
+                <div>
+                    <input type="text" name="phone" placeholder="tuliskan no.telp anda" required>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <label for="gender"> Gender</label>
+                <div>
+                    <input type="radio" name="gender" value="male">Laki Laki
+                    <input type="radio" name="gender" value="female">Perempuan
+                </div>
+            </div>
+
+            <div>
+                <label for="hobbies"> Hobbies </label>
+                <div> <input type="checkbox" name="hobbies" value="music">Music
+                    <input type="checkbox" name="hobbies" value="sports">Sports
+                    <input type="checkbox" name="hobbies" value="traavel">Travel
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <label> Sumber Pendapatan </label>
+                <div> <select name="Sumber Pendapatan"></div>
+                <option value="Bekerja">Bekerja</option">
+                <option value="Beban - Orang tua">Beban - Orang tua</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <label>Universitas </label>
+            <div> <input type="text" name="univ" placeholder="tuliskan universitas anda" required>
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="container">
+            <div>
+                Income <div><input type="range" name="income" value="0" min="0" max="20K" required>
+                    <span style="background-color: green; color: white;">60JT</span>
+                </div>
+            </div>
+
+            <div>
+                <label for="age"> Umur </label>
+                <div> <input type="number" name="age" value="18"- required>
+                </div>
+            </div>
+        </div>
+
+        <p> Bio </p>
+        <textarea name="bio" cols="30" rows="3" required></textarea>
+
+
+
+
+        <div class="container">
+            <footer>
+                <input type="submit" value="Create" id="createButton">
+            </footer>
+        </div>
+
+    </form>
+
+<script src="js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
